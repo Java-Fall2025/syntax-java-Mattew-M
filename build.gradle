@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation 'org.testng:testng:7.11.0'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.13'
+
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     implementation 'org.projectlombok:lombok:1.18.38'
 }
